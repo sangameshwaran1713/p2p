@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".qr.QrScannerActivity">
+
+    <!-- Instructions Text -->
+    <TextView
+        android:id="@+id/instructionsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:background="@drawable/semi_transparent_background"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/qr_scan_instructions"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Camera Preview Container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Camera Preview -->
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Scanning Overlay -->
+        <View
+            android:id="@+id/scanningOverlay"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/qr_scanning_overlay" />
+
+    </FrameLayout>
+
+    <!-- Controls Layout -->
+    <LinearLayout
+        android:id="@+id/controlsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_theme_light_surface"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:text="@string/cancel"
+            android:textSize="16sp" />
+
+        <!-- Flashlight Toggle -->
+        <ImageButton
+            android:id="@+id/flashlightButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/toggle_flashlight"
+            android:padding="12dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_flashlight_off" />
+
+    </LinearLayout>
+
+</LinearLayout>

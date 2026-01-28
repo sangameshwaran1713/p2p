@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude sensitive data from cloud backup -->
+        <exclude domain="database" path="transfer_database" />
+        <exclude domain="sharedpref" path="crypto_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- Allow transfer history during device transfer -->
+        <include domain="database" path="transfer_database" />
+    </device-transfer>
+</data-extraction-rules>

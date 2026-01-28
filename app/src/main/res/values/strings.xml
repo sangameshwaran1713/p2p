@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">P2P File Share</string>
+    <string name="app_subtitle">Share files securely between devices using Wi-Fi Direct</string>
+    <string name="main_subtitle">Share files securely between devices using Wi-Fi Direct</string>
+    <string name="send_file">Send File</string>
+    <string name="receive_file">Receive File</string>
+    <string name="transfer_history">Transfer History</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="status">Status</string>
+    <string name="ready_to_transfer">Ready to transfer files</string>
+    <string name="warning">Warning</string>
+    <string name="permissions_required">Permissions Required</string>
+    <string name="permissions_description">Grant permissions to use file sharing features</string>
+    <string name="grant">Grant</string>
+    
+    <!-- Activity Titles -->
+    <string name="send_activity_title">Send File</string>
+    <string name="receive_activity_title">Receive File</string>
+    <string name="transfer_activity_title">File Transfer</string>
+    <string name="history_activity_title">Transfer History</string>
+    <string name="qr_scanner_title">Scan QR Code</string>
+    
+    <!-- Common Actions -->
+    <string name="select_file">Select File</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    
+    <!-- Transfer Status -->
+    <string name="connecting">Connecting...</string>
+    <string name="transferring">Transferring...</string>
+    <string name="completed">Transfer Completed</string>
+    <string name="failed">Transfer Failed</string>
+    
+    <!-- Progress -->
+    <string name="progress_format">%d%% completed</string>
+    <string name="speed_format">%.1f MB/s</string>
+    <string name="eta_format">ETA: %s</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera_title">Camera Permission Required</string>
+    <string name="permission_camera_message">Camera access is needed to scan QR codes for file sharing.</string>
+    <string name="permission_storage_title">Storage Permission Required</string>
+    <string name="permission_storage_message">Storage access is needed to read and save files.</string>
+    <string name="permission_location_title">Location Permission Required</string>
+    <string name="permission_location_message">Location access is required for Wi-Fi Direct functionality.</string>
+    
+    <!-- Errors -->
+    <string name="error_wifi_direct_not_supported">Wi-Fi Direct is not supported on this device</string>
+    <string name="error_wifi_direct_disabled">Please enable Wi-Fi to use file sharing</string>
+    <string name="error_file_not_found">Selected file not found</string>
+    <string name="error_connection_failed">Failed to establish connection</string>
+    <string name="error_transfer_failed">File transfer failed</string>
+    <string name="error_qr_scan_failed">Failed to scan QR code</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">File Transfer</string>
+    <string name="notification_channel_description">Shows progress of ongoing file transfers</string>
+    <string name="notification_transfer_title">Transferring file</string>
+    <string name="notification_transfer_text">%s - %d%% completed</string>
+    
+    <!-- QR Scanner -->
+    <string name="qr_scan_instructions">Point your camera at the QR code to connect and receive the file</string>
+    <string name="toggle_flashlight">Toggle flashlight</string>
+    <string name="qr_scan_error">Error scanning QR code</string>
+    <string name="invalid_qr_code">Invalid QR code format</string>
+    
+    <!-- Send Activity -->
+    <string name="send_instructions">Select a file to share with nearby devices</string>
+    <string name="selected_file">Selected File</string>
+    <string name="file_icon">File icon</string>
+    <string name="start_transfer">Start Transfer</string>
+    <string name="qr_code_title">QR Code Ready</string>
+    <string name="qr_code_instructions">Show this QR code to the receiver</string>
+    <string name="qr_code">QR Code</string>
+    <string name="qr_scan_instruction">Ask the receiver to scan this code with their camera</string>
+    
+    <!-- Receive Activity -->
+    <string name="receive_instructions">Scan the sender\'s QR code to receive their file</string>
+    <string name="qr_scanner">QR Scanner</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="incoming_file">Incoming File</string>
+    <string name="start_receive">Start Receive</string>
+    <string name="how_to_receive">How to Receive Files</string>
+    <string name="receive_help_text">1. Ask the sender to show their QR code\n2. Tap \'Scan QR Code\' and point your camera at the code\n3. Tap \'Start Receive\' to download the file</string>
+    
+    <!-- Transfer Activity -->
+    <string name="file_transfer">File Transfer</string>
+    <string name="speed">Speed</string>
+    <string name="eta">ETA</string>
+    <string name="result_icon">Result icon</string>
+    <string name="transfer_completed">Transfer Completed</string>
+    <string name="done">Done</string>
+    
+    <!-- History Activity -->
+    <string name="transfer_statistics">Transfer Statistics</string>
+    <string name="total_transfers">Total</string>
+    <string name="successful">Successful</string>
+    <string name="total_data">Total Data</string>
+    <string name="no_history">No History</string>
+    <string name="no_transfer_history">No transfer history yet.\nStart sharing files to see your activity here.</string>
+    <string name="clear_history">Clear History</string>
+    <string name="transfer_direction">Transfer Direction</string>
+    <string name="transfer_status">Transfer Status</string>
+    <string name="filter">Filter</string>
+    <string name="statistics">Statistics</string>
+    <string name="clear_all">Clear All</string>
+</resources>

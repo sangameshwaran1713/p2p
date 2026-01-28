@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    
+    <!-- P2P icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,20h16v2H16z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,26h16v2H16z" />
+    <circle
+        android:fillColor="#FFFFFF"
+        cx="12"
+        cy="21"
+        r="3" />
+    <circle
+        android:fillColor="#FFFFFF"
+        cx="36"
+        cy="27"
+        r="3" />
+</vector>

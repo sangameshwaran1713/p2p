@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Transparent background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    
+    <!-- Corner brackets -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="3dp"
+                android:color="@color/md_theme_light_primary"
+                android:dashWidth="20dp"
+                android:dashGap="180dp" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    
+</layer-list>
