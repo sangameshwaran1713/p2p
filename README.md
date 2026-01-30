@@ -1,4 +1,5 @@
 Overview
+
 The P2P File Share application is a secure, high-performance Android application that enables direct file sharing between devices using Wi-Fi Direct technology. The system combines QR code-based device pairing, end-to-end encryption, and chunked file transfer to provide a seamless offline file sharing experience.
 
 The application follows a modular architecture with clear separation of concerns across networking, cryptography, UI, and data persistence layers. The design prioritizes security through ECDH key exchange and AES-GCM encryption, performance through parallel chunk transfer, and user experience through real-time progress monitoring and background operation.
